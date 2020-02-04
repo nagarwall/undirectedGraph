@@ -1,5 +1,6 @@
 # UndirectedGraph
 
+Graph Theory
 Simple vs. Weighted Graphs
 A simple graph is a notation that is used to represent the connection between pairs of objects. It consists of:
 
@@ -19,11 +20,31 @@ Directed Graph: In a directed graph, edges have direction (edges with arrows con
 Undirected Graph: In an undirected graph, edges have no direction (arrowless connections). It is basically the same as a directed graph but has bi-directional connections between nodes.
 
 
+Minimum Spanning Tree:
+
+A minimum spanning tree (MST) or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible. More generally, any edge-weighted undirected graph (not necessarily connected) has a minimum spanning forest, which is a union of the minimum spanning trees for its connected components.
+
+
+
+DESIGN & IMPLEMENTATION:
+
+Java springboot application is used to implement the graph along with following operations:
+1. Initialize graph
+2. Get current graph
+3. Add a new node
+4. Delete a node
+5. Connect nodes
+6. Update weight
+7. Return Minimum Spanning Tree
+
+
+
 API DOCUMENTATION:
 
 https://app.swaggerhub.com/apis/nagarwall6/Graph/1.0.0
 
 https://app.swaggerhub.com/apis-docs/nagarwall6/Graph/1.0.0#/graph-controller
+
 
 
 POSTMAN TEST:
