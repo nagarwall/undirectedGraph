@@ -201,6 +201,7 @@ public class UndirectedGraph {
             } else
                 return "node1 and node 2 are same"; //return node1 and node 2 are same
         } else
+            //throw new RequExcep
             return "node 1 or node 2 are beyond limit"; //return node 1 or node 2 are beyond limit
     }
 
