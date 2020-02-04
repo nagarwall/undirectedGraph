@@ -41,7 +41,7 @@ Java springboot application is used to implement the graph along with following 
 ![](images/api.png)
 
 
-API DOCUMENTATION:
+SWAGGER API DOCUMENTATION:
 
 https://app.swaggerhub.com/apis/nagarwall6/Graph/1.0.0
 
