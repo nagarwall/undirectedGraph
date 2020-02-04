@@ -19,12 +19,12 @@ In addition to simple and weighted descriptions, there two types of graphs:
 
 Directed Graph: In a directed graph, edges have direction (edges with arrows connect one vertex to another).
 Undirected Graph: In an undirected graph, edges have no direction (arrowless connections). It is basically the same as a directed graph but has bi-directional connections between nodes.
-![](images/graph1.png)
+
 
 Minimum Spanning Tree:
 
 A minimum spanning tree (MST) or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible. More generally, any edge-weighted undirected graph (not necessarily connected) has a minimum spanning forest, which is a union of the minimum spanning trees for its connected components.
-![](images/mst.png)
+
 ![](images/mst_algo.png)
 
 DESIGN & IMPLEMENTATION:
@@ -50,7 +50,7 @@ https://app.swaggerhub.com/apis-docs/nagarwall6/Graph/1.0.0#/graph-controller
 
 
 POSTMAN TEST:
-![](images/postman.png)
+
 
 https://github.com/nagarwall/undirectedGraph/blob/master/Postman/undirectedGraph.postman_collection.json
 
