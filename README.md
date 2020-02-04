@@ -1,6 +1,7 @@
 # UndirectedGraph
 
 Graph Theory
+
 Simple vs. Weighted Graphs
 A simple graph is a notation that is used to represent the connection between pairs of objects. It consists of:
 
