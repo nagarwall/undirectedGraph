@@ -1,5 +1,32 @@
-# undirectedGraph
+# UndirectedGraph
 
+Simple vs. Weighted Graphs
+A simple graph is a notation that is used to represent the connection between pairs of objects. It consists of:
+
+A set of vertices, which are also known as nodes. We denote a set of vertices with a V.
+A set of edges, which are the links that connect the vertices. We denote the edges set with an E.
+A weighted graph refers to a simple graph that has weighted edges. These weighted edges can be used to compute shortest path. It consists of:
+
+A set of vertices V.
+A set of edges E.
+A number w (weight) that is assigned to each edge. Weights might represent things such as costs, lengths or capacities.
+In a simple graph, the assumption is that the sum of all the weights is equal to 1.
+
+Graph Types
+In addition to simple and weighted descriptions, there two types of graphs:
+
+Directed Graph: In a directed graph, edges have direction (edges with arrows connect one vertex to another).
+Undirected Graph: In an undirected graph, edges have no direction (arrowless connections). It is basically the same as a directed graph but has bi-directional connections between nodes.
+
+
+API DOCUMENTATION:
+
+https://app.swaggerhub.com/apis/nagarwall6/Graph/1.0.0
+
+https://app.swaggerhub.com/apis-docs/nagarwall6/Graph/1.0.0#/graph-controller
+
+
+POSTMAN TEST:
 
 curl -X POST \
   http://localhost:8080/initGraph/ \
