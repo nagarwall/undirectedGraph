@@ -38,6 +38,7 @@ Java springboot application is used to implement the graph along with following 
 6. Update weight
 7. Return Minimum Spanning Tree
 
+![](images/api.png)
 
 
 API DOCUMENTATION:
